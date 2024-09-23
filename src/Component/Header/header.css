@@ -1,0 +1,29 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: #454545;
+    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out,;
+}
+
+.header-nav{
+    display: flex;
+    gap: 2rem;
+    font-weight: 400;
+    font-size: .75rem;
+    color: white;
+    font-family: monospace;
+}
+
+.headerTransparent {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: rgba(69, 69, 69, 0.75); 
+    backdrop-filter: blur(100px); 
+    opacity: 0.9;
+    z-index: 999; 
+  }

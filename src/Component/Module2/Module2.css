@@ -1,0 +1,60 @@
+.module2-Main-Div{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-top: 1vw;
+    justify-content: center;
+}
+
+.watvh2Ultra ,.AirPods-4{
+    width: 48vw;
+    height: 90vh;
+    position: relative;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.watvh2Ultra-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.subhead-p-watvh2Ultra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.AirPods-4-inner{
+    position: absolute;
+}
+.split-wrapper-bottomAirPods-4{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+.AirPods-4-inner{
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.AirPods-4-inner p{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem
+}

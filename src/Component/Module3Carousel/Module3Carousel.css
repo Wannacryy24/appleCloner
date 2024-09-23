@@ -1,0 +1,43 @@
+
+.module3-carousel-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 90vh; 
+  }
+  
+  .module3-carousel-div img {
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .car-2 {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .car-1 {
+    opacity: .7;
+    position: relative;
+    margin-right: 1rem;
+  }
+  
+  .car-3 {
+    opacity: .7;
+    position: relative;
+    margin-left: 1rem;
+  }
+  
+  .miniCarousal-div{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  .miniCarousal-div img{
+    display: flex;
+    width: 50vw;
+  }

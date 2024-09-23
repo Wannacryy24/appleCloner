@@ -1,0 +1,43 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #666;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  border-top: 1px solid #e0e0e0;
+}
+.foot-cont{
+  position: relative;
+  background-color: #f9f9f9;
+  color: #666;
+  padding: 2rem;
+}
+.foot-cont p{
+  font-size: 14px;
+  margin-top: 1rem;
+}
+
+.footer-section {
+  width: 23%;
+}
+
+.footer-section h4 {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  line-height: 1.8;
+}
+
+.footer-section ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
