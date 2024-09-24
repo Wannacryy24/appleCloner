@@ -5,9 +5,7 @@ import './header.css'
 const navItems = [
   "Store", "Mac", "iPad", "iPhone", "Watch", "Airpods", "Tv & Home", "Entertainment", "Accessories", "Support"
 ];
-
-
-
+const navInnerItems = [ ];
 export default function Header() {
   const [scrolled , serScroll] = useState(false);
   const handleScroll = ()=>{
