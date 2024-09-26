@@ -1,0 +1,24 @@
+.hamburger-div{
+    display: none;
+}
+
+@media(max-width:768px){
+    .hamburger-div{
+        display: block;
+    }
+    .hamburger{
+        height: 20px;
+    }
+    .header-nav-hamburger{
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 90vh;
+        top: 10vh;
+        z-index: 88888;
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-left: 2.5rem;
+
+    }
+}

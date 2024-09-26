@@ -1,0 +1,15 @@
+.Store-Component{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+}
+.Store-Component h1{
+    font-weight: 600;
+    font-size: 4rem;
+    color: #6E6E73;
+}
+.Store-Component h1 span{
+    color: black;
+}

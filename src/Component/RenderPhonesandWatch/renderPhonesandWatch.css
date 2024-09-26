@@ -5,18 +5,24 @@
     width: 100%;
   }
 
+.bgImage{
+  background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
   .iPhone-16-pro ,.iPhone-16{
     position: relative;
-    /* background-color: #007aff; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     transition: transform 0.3s ease-in-out;
     height: 80vh;
+  
   }
 
   .iPhone-16-pro-inner,.iPhone-16-inner{
-    padding: 5rem;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -26,7 +32,7 @@
   }
   
   .iPhone-16-pro-h1.headline ,.iPhone-16-h1.headline{
-    /* padding-top: 3rem; */
+    
     height: auto;
     font-size: 3.5em;
     color: white;
@@ -68,10 +74,15 @@
     font-size: 1em;
     color: #007aff;
     background-color: transparent;
+    border: 1px solid;
     border-color: #007aff;
     border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+  }
+
+  .buy-btn:hover{
+    color: white;
   }
 
   .button-buy-learnmore-div{
@@ -134,7 +145,6 @@
     position: relative;
     transition: transform 0.3s ease-in-out;
     height: 85vh;
-    padding-top: 2rem;
   }
   .apple-watch-10-inner div{
     margin-top: 2rem;
@@ -153,4 +163,37 @@
   }
   .apple-watch-10-p.subhead{
     color: black;
+  }
+
+
+
+
+
+
+  @media(max-width:768px){
+    .iPhone-16-pro-h1.headline{
+      font-size: 2rem;
+      /* color: red; */
+    }
+    .subhead-p{
+      font-size: 1rem;
+    }
+    .iPhone-16-pro-inner{
+      padding: 2rem;
+    }
+    .bgImage{
+      /* background-size: contain; */
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;   
+    }
+    .button-buy-learnmore-div{
+      height: 1rem;
+    }
+    .split-wrapper-bottom{
+      height: 20vh;
+    }
+    .apple-watch-10-inner div{
+      height: 10vh;
+    }
   }

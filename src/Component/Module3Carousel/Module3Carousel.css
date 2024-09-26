@@ -41,3 +41,10 @@
     display: flex;
     width: 50vw;
   }
+
+  @media(max-width:768px){
+    .module3-carousel-div{
+      height: fit-content;
+      padding: 20px 0;
+    }
+  }

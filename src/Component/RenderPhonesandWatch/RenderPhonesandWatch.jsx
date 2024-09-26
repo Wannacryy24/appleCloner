@@ -6,7 +6,7 @@ export default function RenderPhonesandWatch() {
     <div className='homePage-collection-module'>
       {
         iphoneandWatchData.map((item, index) => (
-          <div className={item.name} key={index}>
+          <div className={`${item.name} bgImage`} key={index} style={{ backgroundImage: `url(${item.imageSrc})` }}>
             <div className={`${item.name}-inner`}>
               {item.headline && <h1 className={`${item.name}-h1 headline`}>{item.headline}</h1>}
               {item.logo && <div style={{backgroundImage:`url(${item.logo})`}}></div>}
@@ -21,11 +21,11 @@ export default function RenderPhonesandWatch() {
               <p>{item.moreDetails}</p>
               </div>
             </div>
-            <div 
-              style={{ backgroundImage: `url(${item.imageSrc})` }} 
+            {/* <div 
+               
               className={`${item.name}-image-wrapper`}
             >
-            </div>
+            </div> */}
           </div>
         ))
       }

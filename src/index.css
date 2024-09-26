@@ -12,5 +12,19 @@ html {
 #root{
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  /* gap: 2rem; */
+}
+
+@media(max-width:768px){
+  .header-shared-component-Img-Div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+  }
+  .header-shared-component-Img-Div img{
+    width: 70vw;
+    height: 70vh;
+  }
 }
